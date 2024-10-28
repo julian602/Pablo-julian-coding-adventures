@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void school(string signal_color);
+
+int main() {
+
+	school("green");
+
+
+}
+
+//definition
+void school(string signal_color) {
+	 
+	if (signal_color == "green") {
+		cout << "proceed";
+	}
+	else if (signal_color == "yellow") {
+		cout << "be ready";
+	}
+	else if (signal_color == "red") {
+		cout << "stop";
+	}
+}
