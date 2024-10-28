@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+//declaration
+void TruckWeight(int weight);
+
+int main() {
+
+	TruckWeight(500); //call
+
+}
+
+
+//definition
+void TruckWeight(int weight) {
+
+	if (weight > 1200)
+		cout << "too big" << endl;
+	else
+		cout << "within limit" << endl;
+
+
+}
